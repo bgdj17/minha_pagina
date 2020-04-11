@@ -1,0 +1,71 @@
+body{
+    position: relative;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+
+}
+
+
+.perfil {
+    width: 40%;
+    height: 25%;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    box-shadow:black 0.5px 1px 0.5em;
+    
+    
+    
+}
+header{
+    width: 30%;
+    height: 500px;
+    padding-right: 3%;
+    padding-top: 5%;
+    box-sizing: border-box;
+    float: left;
+    background-image: url(img/overlay.png), url(img/bg.jpg);
+    background-size: auto, cover;
+	background-position: center top;
+    margin: 0;
+    display: block;
+    position: fixed;
+     text-align: right;
+     color: white;
+     text-shadow: black 1px 1px 1px;
+     
+}
+header ul{
+    padding-top: 20%;
+}
+header li{
+    font-size: 30px;
+    display: inline-block;
+    text-transform: none;
+    color: silver;
+    
+    
+
+}
+header i{
+    color:white;
+}
+.email{
+    font-size: 12px;;
+}
+main{
+    width: 70%;
+    float: right;
+    padding: 5% 10% 5% 10%;
+    box-sizing: border-box;
+    color: rgb(92, 92, 92);
+    font-size: 14px;
+    
+}
+footer{
+    background-color: grey;
+    text-align: center;
+    margin-bottom: 0;
+    position: 0;
+
+}
